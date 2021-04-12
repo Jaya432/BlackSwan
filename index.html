@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        height: 800px;
+    }
+    .header{
+        height: 20%;
+        background-color: whitesmoke;
+        width: 100%;
+        display: flex;
+    }
+    .header1{
+        width: 80%;
+        text-align: center;
+        padding: 50px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bolder; color: black;
+        justify-content: space-around;
+    }
+    .main{
+        height: 70%;
+        background-image: url(https://i.pinimg.com/originals/6e/d6/f9/6ed6f98d129906dcf03e7ec031fd2963.jpg);
+        background-size: cover;
+    }
+    .side{
+        width: 20%; 
+        text-align: center;
+        height: 100%;
+    }
+    .section{
+        width: 80%;
+        height: 100%;
+    }
+    .one{
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    .two{
+        width: 70%;
+    }
+    .sec1,.sec2{
+        height: 50%;
+        width: 100%;
+    }
+    .sec2{
+        text-align: center;
+    }
+    .footer{
+        height: 10%;
+        background-color:purple;
+        justify-content: center;
+        color: seashell;
+        margin-block: 10px;
+    }
+    .main,.sec1,.sec2,.footer{
+        display: flex;
+    }
+    @media only screen and(max-width: 800px){
+        .section{
+            flex-direction: column;
+            }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="header"> 
+            <img src="https://i.pinimg.com/736x/ca/e2/96/cae29646956265a070c53264c1b104a4.jpg" alt="black swan image" width="130px" height="150px">
+            <div class="header1">BLACK SWAN 
+                <pre style="text-align: center;"> Family Spa & Salon</pre>
+            </div>
+        </div>
+        <div class="main">
+            <div class="side">
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Services</a></p>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Contact Us</a></p>
+            </div>
+            <div class="section">
+                <div class="sec1">
+                    <div class="one">
+                        <ul style="list-style:none;">
+                            <h3>Makeup Looks</h3>
+                            <li>Air Brush Makeup</li>
+                            <li>HD Makeup</li>
+                            <li>Natural Makeup</li>
+                        </ul>
+                    </div>
+                    <div class="two">
+                        <h4>#Trending , #Offers , #BlackSwan , #Beauty , #Spa , #Salon</h4>
+                        <h2>Trending Services & Offers</h2>
+                        <p>At Black Swan we have regular Offers on trending Services & Unique World Class services and treatments which helps you to Enrich your beauty.</p>
+                    </div>
+                </div>
+                <div class="sec2">
+                    <p>At Black Swan Family Spa & Salon , you are in good hands with our team of friendly staff. We are one big family of professionals. Our talented estheticians and beauty stylists will put the best of themselves toward making you beautiful, gorgeous and relaxed. We deliver quality personal care and beauty reatments that include HD Make Up, Keratin Treatments, Pedicure, Manicure, Hair Treatment, Skin Care, Hair Colour, Bridal packages, Ultra HD Make up and lots more. We simply have everything you need to transform your looks and overall beauty.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© Black Swan Family Spa & Salon / All rights reserved
+            </p>
+        </div>
+    </div>
+</body>
+</html>
